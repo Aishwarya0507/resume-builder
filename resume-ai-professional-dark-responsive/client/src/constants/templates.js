@@ -1,0 +1,17 @@
+export const templates = [
+  { name: 'Modern', id: 'Modern', desc: 'Clean, modern look with indigo accents', popular: true },
+  { name: 'Classic', id: 'Classic', desc: 'Traditional and professional' },
+  { name: 'Minimal', id: 'Minimal', desc: 'Simple, distraction-free design' },
+  { name: 'Executive', id: 'Executive', desc: 'Premium design for senior roles', popular: true },
+  { name: 'Tech Pro', id: 'Tech Pro', desc: 'Developer-focused terminal style', isNew: true },
+  { name: 'Simple ATS', id: 'Simple ATS', desc: 'Maximum machine readability', popular: true },
+  { name: 'Creative', id: 'Creative', desc: 'Bold, stylish and artistic', isNew: true },
+  { name: 'Developer', id: 'Developer', desc: 'Geeky and technical layout' },
+  { name: 'Academic', id: 'Academic', desc: 'For researchers and students' },
+  { name: 'Retail', id: 'Retail', desc: 'For service industry roles' },
+  { name: 'Corporate', id: 'Corporate', desc: 'Standard business layout', popular: true },
+  { name: 'Elegant', id: 'Elegant', desc: 'Sophisticated and minimalist' },
+  { name: 'Compact', id: 'Compact', desc: 'High density for experienced pros' },
+  { name: 'Hybrid', id: 'Hybrid', desc: 'Mix of modern and traditional', isNew: true },
+  { name: 'Functional', id: 'Functional', desc: 'Focus on skills and expertise' },
+];
