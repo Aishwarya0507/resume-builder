@@ -56,6 +56,15 @@ app.get('/api/health', (req, res) => {
   })
 })
 
+app.get('/', (req, res) => {
+  res.status(200).json({
+    success: true,
+    message: 'ResumeAI backend is running',
+    healthCheck: '/api/health',
+    frontend: process.env.FRONTEND_URL || null,
+  })
+})
+
 // ─── API Routes ───────────────────────────────────────────────────────────────
 app.use('/api/auth', authRoutes)
 app.use('/api/users', userRoutes)
