@@ -1,32 +1,9 @@
-# Node modules
-node_modules/
-client/node_modules/
-server/node_modules/
-
-# Environment variables
-.env
-client/.env
-server/.env
-.env.local
-
-# Build directories
-client/dist/
-server/dist/
-
-# OS files
+venv/
+backend/.env
+backend/venv/
+backend/__pycache__/
+backend/app/__pycache__/
+backend/resumeai.db
+frontend/node_modules/
+frontend/dist/
 .DS_Store
-Thumbs.db
-
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-logs/
-*.log
-
